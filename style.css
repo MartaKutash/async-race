@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+    box-sizing: border-box;
+	/*width: 100%;
+	height: 100%;*/
+}
+
+body {
+	background-color: black;
+}
+
+.title {
+	color: rgb(226, 43, 202);
+	padding-top: 50px;
+	padding-left: 1000px;
+	font-size: 50px;
+}
+
+.div_for_garage {
+	width: 300px;
+	padding-left: 150px;
+	padding-top: 100px;
+
+}
+
+.div_for_winner {
+	width: 300px;
+	margin-left: 350px;
+	margin-top: -255px;
+
+}
+
+#button_garage {
+	font-weight: 600;
+    border: 2px solid white;
+    border-radius: 8px;
+    color: white;
+    background-color: blueviolet;
+    width: 8.5rem;
+    height: 3rem;
+    display: grid;
+    place-items: center;
+    transition: opacity .1s, background-color .1s;
+	cursor: pointer;
+}
+#button_garage:active {
+    background-color: rgb(221, 160, 211);
+}
+
+@media (min-width: 1000px)  {
+    .button_garage {
+        cursor: pointer;
+    }
+    .button_garage:hover {
+        background-color: rgb(226, 43, 202);
+    }
+    .button_garage:active {
+        opacity: .7;
+    }
+}
+
+#button_winners {
+	font-weight: 600;
+    border: 2px solid white;
+    border-radius: 8px;
+    color: white;
+    background-color: blueviolet;
+    width: 8.5rem;
+    height: 3rem;
+    display: grid;
+    place-items: center;
+    transition: opacity .1s, background-color .1s;
+	cursor: pointer;
+	margin-top: 200px;
+}
+#button_winners:active {
+    background-color: plum;
+}
+
+@media (min-width: 1000px)  {
+    .button_winners {
+        cursor: pointer;
+    }
+    .button_winners:hover {
+        background-color: rgb(226, 43, 202);
+    }
+    .button_winners:active {
+        opacity: .7;
+    }
+}
+
+.first_paragraph {
+	color: white;
+	padding-top: 100px;
+}
+
+#div_hidden {
+	display: none;
+}
+
+.second_paragraph {
+	color: white;
+}
+
+.car_img {
+	width: 250px;
+	margin-top: 100px;
+}
+
+#create_button {
+	font-weight: 400;
+    border: 2px solid white;
+    border-radius: 12px;
+    color: white;
+    background-color: blueviolet;
+	width: 8.5rem;
+    height: 3rem;
+	margin-right: 50px;
+	cursor: pointer;
+	display: block;
+	margin-left: 800px;
+	margin-top: 100px;
+}
+
+#update_button {
+	font-weight: 400;
+    border: 2px solid white;
+    border-radius: 12px;
+    color: white;
+    background-color: blueviolet;
+	width: 8.5rem;
+    height: 3rem;
+	cursor: pointer;
+	display: block;
+	margin-left: 300px;
+	margin-top: -200px;
+}
+
+#delete_button {
+	font-weight: 400;
+    border: 2px solid white;
+    border-radius: 12px;
+    color: white;
+    background-color: blueviolet;
+	width: 8.5rem;
+    height: 3rem;
+	cursor: pointer;
+	display: block;
+	margin-left: 300px;
+	margin-top: 30px;
+}
+
+
+
+#carname {
+	color: white;
+	font-weight: 5000px;
+}
+
+#div_for_img {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin-top: -50px;
+	gap: 150px;
+}
+
+
+#create_button {
+	margin-left: 800px;
+}
+
